@@ -1,0 +1,50 @@
+extends layout
+
+block content
+	table.wrapper
+		tr
+			td
+				div.xp
+					p
+						| A problem has been detected and windows has been shut down to prevent damage to your computer.
+
+					p
+						| The problem seems to be caused by the following file: 
+						span #{response.fileName}
+
+					p
+						span #{response.errorMessage}
+
+					p
+						| if this is the first time you've seen this stop error screen, <br />
+						| restart your computer. If this screen appears again, follow<br />
+						| these steps:
+
+					p
+						| Check to make sure any new hardware or software is properly installed.<br />
+						| If this is a new installation, ask your hardware or software manufacturer<br />
+						| for any windows updates you might need.
+
+					p
+						| If problems continue, disable or remove any newly installed hardware<br />
+						| or software.Disable BIOS memory options such as caching or shadowing.<br />
+						| If you need to use safe Mode to remove or disable components, restart<br />
+						| your computer press F8 to select Advanced Startup Options, and then<br />
+						| select Safe Mode.
+
+					p
+						| Technical information:
+
+					p
+						| *** STOP: 0X000000CE (0x
+						span #{response.randHex}
+						| ,0x00000000,0x
+						span #{response.randHex}
+						| ,0x00000000)
+
+					p
+						span #{response.fileName}
+						<br />
+						| Beginning dump of physical memory<br />
+						| Contact your system administrator or technical support group for further<br />
+						| assistance.
