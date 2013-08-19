@@ -10,8 +10,6 @@ exports.index = function(req, res){
 	var full_url = req.protocol + '://' + req.host  + ( port == 80 || port == 443 ? '' : ':' + port );
 	var full_req = full_url + req.path;
 
-	console.log(port, full_url, full_req);
-
 	// Response stuff
 	error = req.app.api.randomError();
 	response = {
@@ -21,6 +19,6 @@ exports.index = function(req, res){
 		errorMessage: error[1]
 	}
 
-	res.render('index', { response: response, url: full_url });
+	res.render('index', { response: response, host: full_url, url:full_req, title: "Something went wrong! - BSOD API" });
 	console.log("Retuned: ", response);
 };

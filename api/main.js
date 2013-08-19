@@ -29,8 +29,6 @@ randomError = function()
 	return bsodcodes[myRand(0, arrayLenght - 1)];
 }
 
-console.log(randomError());
-
 exports.bsodcodes = bsodcodes;
 exports.dlls = dlls;
 exports.randHex = randHex;
