@@ -10,6 +10,10 @@ Output will be based on a pattern like this:
 
 When accessing `/`, output is set to default (random).
 
+## To all of you
+
+Feel free to fork, share, send pull requests, etc.
+
 ##LICENCE
 
 [wtfpl](http://www.wtfpl.net/txt/copying/)
