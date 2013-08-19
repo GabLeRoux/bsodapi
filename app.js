@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -10,7 +9,9 @@ var express = require('express')
 
 var app = express();
 
-app.api = require('./api/main');
+/**
+ * Config
+ */
 
 app.configure(function(){
   app.set('port', process.env.PORT || 3000);
@@ -29,8 +30,18 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
+/**
+ * App part
+ */
+
+// Api init
+app.api = require('./api/main');
+
+// Routes
 app.get('/', routes.index);
 
+
+// Start server
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
 });

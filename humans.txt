@@ -1,0 +1,12 @@
+/* TEAM */
+
+Author: Gabriel Le Breton
+Site: http://www.gableroux.com/
+Email: lebreton.gabriel@gmail.com
+Twitter: @gableroux  
+
+/* SITE */
+
+Standards: HTML5, CSS3
+Components: None yet!           
+Software: Sublime Text, Node.js, Express, Jade, Grunt
