@@ -1,4 +1,4 @@
-# Blue Screen Simple API (BSSA)
+# Blue Screen of Death API (bsodapi)
 
 basic project I made to test `express` and `node.js`. Based on XP's BSOD. :) 
 
