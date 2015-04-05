@@ -11,7 +11,7 @@ Very simple project using `express` and `node.js` to render a Blue Screen of Dea
 * Add funny things with url
 * Full screen sugestion js
 
-Feel free to fork, share and sned pull requests.
+Feel free to fork, share and send pull requests.
 
 ##LICENCE
 
