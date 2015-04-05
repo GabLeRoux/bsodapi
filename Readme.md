@@ -9,7 +9,14 @@ Very simple project using `express` and `node.js` to render a Blue Screen of Dea
 ## Todo
 
 * Add funny things with url
-* Full screen sugestion js
+* Full screen suggestion js
+
+## Usage and requirements
+
+You need [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/), then run:
+
+    npm install
+    node app
 
 Feel free to fork, share and send pull requests.
 
