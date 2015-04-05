@@ -1,18 +1,17 @@
 # Blue Screen of Death API (bsodapi)
 
-basic project I made to test `express` and `node.js`. Based on XP's BSOD. :) 
+[See it in action](http://bsodapi.herokuapp.com/) (refresh for random error messages)
 
-## Usage todo
+Very simple project using `express` and `node.js` to render a Blue Screen of Death that looks like XP's BSOD. :)
 
-Output will be based on a pattern like this:
+[Imgur](http://i.imgur.com/CKXnjFt.png)
 
-	http://url/e/{error}/f/{fileName}/c/{contact}/
+## Todo
 
-When accessing `/`, output is set to default (random).
+* Add funny things with url
+* Full screen sugestion js
 
-## To all of you
-
-Feel free to fork, share, send pull requests, etc.
+Feel free to fork, share and sned pull requests.
 
 ##LICENCE
 
