@@ -9,7 +9,7 @@ block content
 						| A problem has been detected and windows has been shut down to prevent damage to your computer.
 
 					p
-						| The problem seems to be caused by the following file: 
+						| The problem seems to be caused by the following file:
 						span #{response.fileName}
 
 					p
@@ -36,7 +36,7 @@ block content
 						| Technical information:
 
 					p
-						| *** STOP: 0X000000CE (0x
+						| *** STOP: #{response.errorCode} (0x
 						span #{response.randHex}
 						| ,0x00000000,0x
 						span #{response.randHex}
