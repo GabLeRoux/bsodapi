@@ -4,7 +4,7 @@
 
 Very simple project using `express` and `node.js` to render a Blue Screen of Death that looks like XP's BSOD. :)
 
-![bosdapi](http://i.imgur.com/CKXnjFt.png)
+![bosdapi](http://i.imgur.com/CKXnjFt.png?1)
 
 ## Todo
 
