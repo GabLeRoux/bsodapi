@@ -1,5 +1,7 @@
 # Blue Screen of Death API (bsodapi)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/GabLeRoux/bsodapi.svg)](https://greenkeeper.io/)
+
 [See it in action](http://bsodapi.herokuapp.com/) (refresh for random error messages)
 
 Very simple project using `express` and `node.js` to render a Blue Screen of Death that looks like XP's BSOD. :)
