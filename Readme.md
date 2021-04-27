@@ -20,6 +20,6 @@ You need [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/), then r
 
 Feel free to fork, share and send pull requests.
 
-##LICENCE
+## LICENCE
 
 [wtfpl](http://www.wtfpl.net/txt/copying/)
